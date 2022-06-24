@@ -33,8 +33,4 @@ class Solution {
 
         return true;
     }
-
-    function sorter(Interval $interval1, Interval $interval2) {
-        return $interval1->start <=> $interval2->start;
-    }
 }
