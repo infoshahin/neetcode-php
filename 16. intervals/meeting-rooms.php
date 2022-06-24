@@ -4,12 +4,12 @@
 // URL: https://www.lintcode.com/problem/920/
 
 class Interval {
-    public $start;
-    public $end;
+    public int $start;
+    public int $end;
 
-    function __construct($start, $end){
-        $this -> end = $end;
-        $this -> start = $start;
+    function __construct(int $start, int $end){
+        $this->end = $end;
+        $this->start = $start;
     }
 }
 
