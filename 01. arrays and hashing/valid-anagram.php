@@ -1,6 +1,11 @@
 <?php
 
-// URL: https://leetcode.com/problems/valid-anagram/
+/*
+ * URL: https://leetcode.com/problems/valid-anagram/
+ * Time Complexity: O(nlog(n)+mlog(m))
+ * Space Complexity: O(1) as we are not using any extra space.
+ * Hint: Sort the strings and compare them.
+ */
 
 class SolutionUsingSorting
 {
@@ -18,6 +23,12 @@ class SolutionUsingSorting
         return ($s == $t) ? true : false;
     }
 }
+
+/*
+* Time Complexity: O(n+m)
+* Space Complexity: O(1) as we are only using constant 26 space for lowercase characters.
+* Hint: Use a hash map to store the characters and their counts. Then compare the counts.
+*/
 
 class SolutionUsingHashmap
 {
