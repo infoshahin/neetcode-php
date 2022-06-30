@@ -1,6 +1,11 @@
 <?php
 
-// URL: https://leetcode.com/problems/contains-duplicate/
+/*
+ * URL: https://leetcode.com/problems/contains-duplicate/
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * Hint: Use a hash table to store the values. If the value is already in the hash table, then it means that the value is already in the array.
+ */ 
 
 class Solution
 {
