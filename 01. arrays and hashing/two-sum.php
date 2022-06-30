@@ -1,6 +1,11 @@
 <?php
 
-// URL: https://leetcode.com/problems/two-sum/
+/**
+ * URL: https://leetcode.com/problems/two-sum/
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ * Hint: Use a hash map to store the numbers and their indices. Then compare the indices.
+ */
 
 class Solution
 {
